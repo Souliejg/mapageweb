@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matelas Confort</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .bio {
+            margin: 20px;
+        }
+        .bio h1 {
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .matelas-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .matelas-item {
+            background-color: #e6f2ff;
+            border: 1px solid #b3c6ff;
+            border-radius: 5px;
+            margin: 10px 0;
+            padding: 15px;
+        }
+        footer {
+            background-color: #004080;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #b3c6ff;
+        }
+        form button {
+            background-color: #004080;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matelas Confort</h1>
+        <p>Votre expert en matelas pour un sommeil réparateur.</p>
+    </header>
+    <div class="content">
+        <section class="bio">
+            <h1>À Propos de Nous</h1>
+            <p>Bienvenue chez Matelas Confort ! Nous sommes spécialisés dans la vente de matelas de haute qualité pour garantir votre confort pendant la nuit. Notre mission est de vous offrir le meilleur produit au meilleur prix.</p>
+        </section>
+        <section class="matelas">
+            <h2>Nos Matelas</h2>
+            <ul class="matelas-list">
+                <li class="matelas-item">
+                    <h3>Matelas Ergonomique</h3>
+                    <p>Un matelas qui s'adapte parfaitement à la forme de votre corps pour un soutien optimal.</p>
+                </li>
+                <li class="matelas-item">
+                    <h3>Matelas Mémoire de Forme</h3>
+                    <p>Conçu pour épouser les contours de votre corps et réduire les points de pression.</p>
+                </li>
+                <li class="matelas-item">
+                    <h3>Matelas Hybride</h3>
+                    <p>Une combinaison de mousse et ressorts pour un confort inégalé et une excellente ventilation.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contactez-Nous</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Matelas Confort. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
